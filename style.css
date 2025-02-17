@@ -1,4 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+   width: 77.5%;
+   margin: auto;
+   border-bottom:1px solid rgb(207, 198, 198);
+   display: flex;
+   justify-content: space-between;
+   height: 72px;
+   align-items: center;
+
+}
+#image img{
+    width: 120px;
+    padding-left:39.5px;
+    padding-top: 10px;
+}
+#buttons{
+    padding: 0 10px;
+}
+#buttons button{
+    margin: 0 5px;
+    padding:  9.5px 15px;
+    border-radius: 5px;
+    border: 0;
+    font-size:0.8rem;
+    font-weight: 600;
+}
+#buttons #log{
+    background-color:#1895f5 ;
+    color: white;
+}
+#buttons #sign{
+    background-color:white ;
+    color: #1895f5;
+}
+#buttons button:hover{
+    cursor: pointer;
+}
+
+section{
+    border-bottom: 1px solid rgb(220, 205, 205);
+    width: 60%;
+    margin: auto;
+    height: 329px;
+    padding: 30px 70px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+#profile img{
+    margin-top: 45px;
+    width: 150px;
+    border-radius: 50%;
+}
+#username{
+    border: 1px solid black;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-bottom: 20px;
+}
+#username h2{
+    font-weight: 400;
+    font-size: 20px;
+}
+#username button{
+    border: 0;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    /* font-size:0.8rem; */
+    font-weight: 550;
+}
+#username #lastbtn{
+    background-color: transparent;
+
+}
+#posts{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     font-family: "Poppins", serif;
     width: 80%;
@@ -15,24 +107,7 @@ body{
 #image img{
     width: 120px;
 }
-#buttons button{
-    padding:  7px 10px;
-    border-radius: 5px;
-    border: 0;
-}
-#buttons #log{
-    background-color:#1895f5 ;
-    color: white;
-    font-size: 15px;
-}
-#buttons #sign{
-    background-color:white ;
-    color: #1895f5;
-    font-size: 15px;
-}
-#buttons button:hover{
-    cursor: pointer;
-}
+
 #bio{
     width: 60%;
     margin: auto;
@@ -47,7 +122,7 @@ body{
     margin: 64px;
 }
 #page{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     display: flex;
     height: 50px;
     align-items: center;
@@ -98,4 +173,4 @@ i{
 }
 li:last-of-type{
     font-weight: bold;
-}
+} */

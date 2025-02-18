@@ -48,18 +48,18 @@ section{
     width: 60%;
     margin: auto;
     height: 329px;
-    padding: 30px 70px;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 130px;
+    padding-top:30px ;
 }
 #profile img{
     margin-top: 45px;
     width: 150px;
     border-radius: 50%;
 }
-#username{
-    border: 1px solid black;
+ #username{
     margin-right: 100px;
     display: flex;
     justify-content: space-between;
@@ -70,12 +70,12 @@ section{
     font-weight: 400;
     font-size: 20px;
 }
+
 #username button{
     border: 0;
     padding: 8px 15px;
     border-radius: 5px;
     font-size: 14px;
-    /* font-size:0.8rem; */
     font-weight: 550;
 }
 #username #lastbtn{
@@ -83,94 +83,46 @@ section{
 
 }
 #posts{
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     width: 350px;
     margin-bottom: 20px;
 }
-
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
-    font-family: "Poppins", serif;
-    width: 80%;
-    margin: auto;
-}
-#nav{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.112);
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-    align-items: center;
-
-}
-#image img{
-    width: 120px;
-}
-
-#bio{
-    width: 60%;
-    margin: auto;
-    display: flex;
-    gap: 70px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.112);
-}
-#bio img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 64px;
-}
-#page{
-    border: 1px solid black;
-    display: flex;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    
-}
-#page button{
-    height: 30px;
-    padding: 7px 15px;
-    text-align: center;
-}
-#page h2{
-    padding-left: 30px;
-    font-weight: 300;
-    font-size: 20px;
-}
-#page p{
+#posts span{
     font-weight: 700;
-    font-size: 30px;
 }
-#pff{
-    padding-left: 40px;
-    display: flex;
-    gap: 20px;
-}
-#pff span{
-    font-weight: 600;
-}
-#bio-content h1{
+#bio #name{
+    font-weight: 500;
     font-size: 16px;
-    font-weight: 600;
+    margin-bottom: 4px;
 }
-ul{
-    list-style: none;
+#bio #edu{
+    color: gray;
 }
-li{
-    margin: 6px;
+#bio #bio-content{
+    height: 85px;
 }
-li h1{
-    font-weight: 700;
-}
-#edu{
-    color: #696969bb;
+#bio-content p{
+    padding-bottom: 5px;
 }
 i{
-   color: gold;
+    color: gold;
 }
-li:last-of-type{
-    font-weight: bold;
-} */
+#link{
+    font-weight: 500;
+    color:#00376b;
+}
+#main{
+    /* border: 1px solid black; */
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+#main #p1{
+    border-top:1px solid black ;
+    padding: 10px 30px;
+}
+#main p{
+    padding: 10px 0px;
+}
